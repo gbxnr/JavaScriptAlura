@@ -17,3 +17,16 @@ console.log(typeof cidade)
 let jaAprendeuJS = null
 
 console.log(typeof jaAprendeuJS)
+
+let simbulo = Symbol()
+
+console.log(typeof simbulo)
+
+//possiveis tipos do Js
+// string
+// number
+// number
+// boolean
+// undefined
+// object
+// symbol
