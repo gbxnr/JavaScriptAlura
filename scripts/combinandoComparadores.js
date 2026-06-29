@@ -15,4 +15,4 @@ console.log('Precisa de acompanhante? ', precisaDeAcompanhante)
 // or ||
 // not !
 
-maiorDeIdade && possuiCNH || !precisaDeAcompanhante
+maiorDeIdade && possuiCNH || !precisaDeAcompanhante 
