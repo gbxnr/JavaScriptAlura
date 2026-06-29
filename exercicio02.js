@@ -17,7 +17,6 @@ console.log(media >= 7); // true ou false
 let valorCompra = 35.90; 
 
 let valorPago = 50; 
-
 let troco = valorPago - valorCompra; 
 
 console.log("Troco a ser devolvido: R$" + troco); 
