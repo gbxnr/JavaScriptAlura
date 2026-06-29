@@ -9,5 +9,5 @@ let numero = 1
 
 do{
     console.log("Numero Atual", numero)
-    numero++
+    numero++ 
 } while(numero <= 10)
