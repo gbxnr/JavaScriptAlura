@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Login</title>
+</head>
+<body>
+  <h1>Sistema de Login</h1>
+
+  <label for="email">Email</label><br>
+  <input id="email" type="email" required><br><br>
+
+  <label for="senha">Senha</label><br>
+  <input id="senha" type="password" required><br><br>
+
+  <button id="btnEntrar"><a href="index.html">Entrar</a></button>
+
+  <script>
+    const usuarioCorreto = 'gbxnr@gmail.com';
+    const senhaCorreta = '123456';
+
+    const botao = document.getElementById('btnEntrar');
+
+    botao.addEventListener('click', () => {
+      const email = document.getElementById('email').value;
+      const senha = document.getElementById('senha').value;
+
+      if (email === usuarioCorreto && senha === senhaCorreta) {
+        console.log('liberado');
+      } else {
+        console.log('negado');
+      }
+    });
+  </script>
+</body>
+</html>
