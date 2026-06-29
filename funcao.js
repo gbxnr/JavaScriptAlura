@@ -6,17 +6,21 @@
 //console.log(f(10));
 //
 
-
-function saudacao (nome){ // nome da funcao saudacao
-    console.log('ola virgula', nome)
+const saudacao = (nome) => {
+   console.log('vida longa e prospera', nome)
 }
+
+
 saudacao('Gabriel')
 saudacao('harrison')
 saudacao('ana beatriz')
 
-function calculaDobroDeUmNumero(numero){
-   return numero * 2
-}
+//function calculaDobroDeUmNumero(numero){
+//   return numero * 2
+//}
 
+const calculaDobroDeUmNumero = (numero) => {
+    return numero * 2
+}
 const numeroDobrado = calculaDobroDeUmNumero(4)
 console.log("o dobro de 4 é ", numeroDobrado)
