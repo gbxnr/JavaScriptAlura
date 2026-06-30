@@ -13,6 +13,7 @@ if(notaDoAluno >= 9){
     console.log('Boa Nota')
 }else if(notaDoAluno >=4){
     console.log('nota mediana')
+    
 }else{
     console.log('Nota ruim')
 }

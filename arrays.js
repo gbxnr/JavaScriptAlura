@@ -19,4 +19,5 @@ console.log('depois de remover', frutas)
 for(let i = 0; i < frutas.length; i++){
     console.log('indice: ', i)
      console.log(frutas[i])
+     
 }
